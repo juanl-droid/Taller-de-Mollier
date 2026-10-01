@@ -629,7 +629,8 @@ const META={
     afil:'Universidad Autónoma de Nayarit, Unidad Académica de Ciencias Básicas e Ingenierías, Programa Académico de Ingeniería Mecánica, Tepic, Nayarit, México',
     rol:'Concepción, diseño didáctico, modelado termodinámico, desarrollo de software y validación'}],
   editor:'Universidad Autónoma de Nayarit',
-  doi:'', /* p. ej. 10.5281/zenodo.1234567 — se llena al publicar la versión en Zenodo */
+  doiVersion:'10.5281/zenodo.23088456',
+  doi:'10.5281/zenodo.23088455', /* p. ej. 10.5281/zenodo.1234567 — se llena al publicar la versión en Zenodo */
   url:'https://juanl-droid.github.io/Taller-de-Mollier/',
   repo:'https://github.com/juanl-droid/Taller-de-Mollier',
   licencia:'MIT',
@@ -1276,7 +1277,7 @@ const CITE=(()=>{
       (ok(a.orcid)?`<dt>ORCID</dt><dd><a href="https://orcid.org/${a.orcid}" target="_blank" rel="noopener">https://orcid.org/${a.orcid}</a></dd>`:'')+
       (a.correo?`<dt>Contacto</dt><dd><a href="mailto:${a.correo}">${a.correo}</a></dd>`:'')+`<dt>Adscripción</dt><dd>${esc(a.afil)}</dd><dt>Contribución</dt><dd>${esc(a.rol)}</dd>`).join('')+
       `<dt>Versión</dt><dd>${M.version} (${M.fecha})</dd>`+
-      `<dt>Identificador</dt><dd>${ok(M.doi)?`<a href="https://doi.org/${M.doi}" target="_blank" rel="noopener">doi:${M.doi}</a>`:'DOI en trámite'}</dd>`+
+      `<dt>DOI</dt><dd>${ok(M.doi)?`<a href="https://doi.org/${M.doi}" target="_blank" rel="noopener">${M.doi}</a> <small>(todas las versiones)</small>`:'DOI en trámite'}</dd>`+(M.doiVersion?`<dt>DOI v${M.version}</dt><dd><a href="https://doi.org/${M.doiVersion}" target="_blank" rel="noopener">${M.doiVersion}</a></dd>`:'')+
       `<dt>Aplicación</dt><dd><a href="${M.url}" target="_blank" rel="noopener">${M.url}</a></dd>`+
       `<dt>Código fuente</dt><dd><a href="${M.repo}" target="_blank" rel="noopener">${M.repo}</a></dd>`+
       `<dt>Licencia</dt><dd>MIT (software libre)</dd>`;

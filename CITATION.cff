@@ -22,6 +22,7 @@ authors:
     country: "MX"
 version: "2.1"
 date-released: "2026-10-01"
+doi: "10.5281/zenodo.23088455"
 license: MIT
 url: "https://juanl-droid.github.io/Taller-de-Mollier/"
 repository-code: "https://github.com/juanl-droid/Taller-de-Mollier"

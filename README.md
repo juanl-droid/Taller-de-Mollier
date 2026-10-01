@@ -1,6 +1,6 @@
 # Taller de Mollier
 
-![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue) ![Versión](https://img.shields.io/badge/versión-2.1-informational)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23088455.svg)](https://doi.org/10.5281/zenodo.23088455) ![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue) ![Versión](https://img.shields.io/badge/versión-2.1-informational)
 
 Aplicación libre para aprender a diseñar sistemas de refrigeración sobre el **diagrama de Mollier (log P–h)** real de diez refrigerantes: R-134a, R-600, R-290, R-448A, R-449A, R-717, R-410A, R-32, R-1234ze(E) y R-1233zd(E).
 
@@ -18,7 +18,7 @@ Aplicación libre para aprender a diseñar sistemas de refrigeración sobre el *
 Si usas el Taller de Mollier en docencia o investigación, cítalo así (también disponible en el botón **Cite this repository** de GitHub y en la app, al pie: *Créditos y cómo citar*):
 
 **APA 7**
-> Hernández Méndez, J. L. (2026). *Taller de Mollier: aplicación web para la práctica y evaluación del ciclo de refrigeración por compresión de vapor sobre diagramas presión–entalpía* (Versión 2.1) [Software]. Universidad Autónoma de Nayarit. https://juanl-droid.github.io/Taller-de-Mollier/
+> Hernández Méndez, J. L. (2026). *Taller de Mollier: aplicación web para la práctica y evaluación del ciclo de refrigeración por compresión de vapor sobre diagramas presión–entalpía* (Versión 2.1) [Software]. Universidad Autónoma de Nayarit. https://doi.org/10.5281/zenodo.23088455
 
 **BibTeX**
 ```bibtex
@@ -28,12 +28,13 @@ Si usas el Taller de Mollier en docencia o investigación, cítalo así (tambié
   version   = {2.1},
   year      = {2026},
   publisher = {Universidad Autónoma de Nayarit},
+  doi       = {10.5281/zenodo.23088455},
   url       = {https://juanl-droid.github.io/Taller-de-Mollier/},
   license   = {MIT}
 }
 ```
 
-El DOI de arriba (*concept DOI*) siempre apunta a la versión más reciente; cada versión publicada tiene además su propio DOI en Zenodo.
+El DOI de arriba (*concept DOI*) siempre apunta a la versión más reciente. DOI de la versión 2.1: [10.5281/zenodo.23088456](https://doi.org/10.5281/zenodo.23088456). Registro en Zenodo: <https://zenodo.org/records/23088456>
 
 ---
 
