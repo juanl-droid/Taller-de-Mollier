@@ -1,0 +1,21 @@
+{
+  "title": "Taller de Mollier: aplicación web para la práctica y evaluación del ciclo de refrigeración por compresión de vapor sobre diagramas presión–entalpía",
+  "upload_type": "software",
+  "description": "<p>Aplicación web progresiva, libre y sin registro, para que estudiantes de ingeniería construyan el ciclo de refrigeración por compresión de vapor sobre diagramas presión–entalpía (Mollier) reales de diez refrigerantes (R134a, R600, R290, R448A, R449A, R717, R410A, R32, R1234ze(E) y R1233zd(E)).</p><p>Incluye: módulo de práctica con retroalimentación; módulo de evaluación con problemas aleatorios reproducibles por clave de grupo; simulador del ciclo; clasificación automática de errores de lectura, cálculo y concepto por competencia; y registro automático de resultados en una hoja de cálculo diseñada para investigación educativa. Propiedades termodinámicas generadas con CoolProp (estado de referencia IIR).</p><p>Aplicación en línea: https://juanl-droid.github.io/Taller-de-Mollier/</p>",
+  "creators": [
+    {
+      "name": "Hernández Méndez, Juan Luis",
+      "orcid": "0000-0002-5686-2887",
+      "affiliation": "Universidad Autónoma de Nayarit"
+    }
+  ],
+  "license": "MIT",
+  "language": "spa",
+  "access_right": "open",
+  "keywords": ["refrigeración", "diagrama de Mollier", "diagrama presión-entalpía", "ciclo de compresión de vapor", "termodinámica", "enseñanza de la ingeniería", "software educativo", "refrigerantes", "refrigeration", "engineering education"],
+  "related_identifiers": [
+    {"identifier": "https://juanl-droid.github.io/Taller-de-Mollier/", "relation": "isDocumentedBy", "resource_type": "software"},
+    {"identifier": "10.1021/ie4033999", "relation": "requires", "resource_type": "publication-article"}
+  ],
+  "version": "2.1"
+}

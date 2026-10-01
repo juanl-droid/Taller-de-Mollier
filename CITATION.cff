@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "Si utilizas este software en docencia o investigación, por favor cítalo como se indica a continuación."
+type: software
+title: "Taller de Mollier: aplicación web para la práctica y evaluación del ciclo de refrigeración por compresión de vapor sobre diagramas presión–entalpía"
+abstract: >-
+  Aplicación web progresiva, libre y sin registro, para que estudiantes de ingeniería
+  construyan el ciclo de refrigeración por compresión de vapor sobre diagramas
+  presión–entalpía (Mollier) reales de diez refrigerantes (R134a, R600, R290, R448A,
+  R449A, R717, R410A, R32, R1234ze(E) y R1233zd(E)). Incluye módulo de práctica con
+  retroalimentación, módulo de evaluación con problemas aleatorios reproducibles por
+  clave de grupo, simulador del ciclo, clasificación automática de errores conceptuales
+  y de lectura por competencia, y registro automático de resultados en una hoja de
+  cálculo para investigación educativa. Propiedades termodinámicas generadas con CoolProp.
+authors:
+  - given-names: "Juan Luis"
+    family-names: "Hernández Méndez"
+    orcid: "https://orcid.org/0000-0002-5686-2887"
+    email: "juan.l@uan.edu.mx"
+    affiliation: "Universidad Autónoma de Nayarit, Unidad Académica de Ciencias Básicas e Ingenierías, Programa Académico de Ingeniería Mecánica"
+    city: "Tepic"
+    region: "Nayarit"
+    country: "MX"
+version: "2.1"
+date-released: "2026-10-01"
+license: MIT
+url: "https://juanl-droid.github.io/Taller-de-Mollier/"
+repository-code: "https://github.com/juanl-droid/Taller-de-Mollier"
+keywords:
+  - refrigeración
+  - diagrama de Mollier
+  - diagrama presión-entalpía
+  - ciclo de compresión de vapor
+  - termodinámica
+  - enseñanza de la ingeniería
+  - software educativo
+  - refrigerantes
+  - refrigeration
+  - engineering education
+references:
+  - type: article
+    title: "Pure and Pseudo-pure Fluid Thermophysical Property Evaluation and the Open-Source Thermophysical Property Library CoolProp"
+    authors:
+      - family-names: Bell
+        given-names: Ian H.
+      - family-names: Wronski
+        given-names: Jorrit
+      - family-names: Quoilin
+        given-names: Sylvain
+      - family-names: Lemort
+        given-names: Vincent
+    journal: "Industrial & Engineering Chemistry Research"
+    volume: 53
+    issue: 6
+    start: 2498
+    end: 2508
+    year: 2014
+    doi: "10.1021/ie4033999"
